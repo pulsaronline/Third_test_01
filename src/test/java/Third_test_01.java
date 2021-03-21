@@ -1,12 +1,7 @@
 import com.codeborne.selenide.Configuration;
-import com.codeborne.selenide.Selenide;
-import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
 
-import static com.codeborne.selenide.CollectionCondition.itemWithText;
-import static com.codeborne.selenide.Condition.appear;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
@@ -22,7 +17,7 @@ public class Third_test_01 {
     }
 
     @Test
-    void selenideSearchTest() {
+    void selenideGitHubSearchTest() {
         //- Откройте страницу Selenide в Github
         open("https://github.com/selenide/selenide");
         //- Перейдите в раздел Wiki проекта
